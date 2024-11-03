@@ -1,0 +1,14 @@
+#creating a 2D list
+my_list= [['a','b','c','d'],
+          ['e','f','g','h'],
+          ['i','j','k','l']]
+
+print(my_list) 
+
+#counting the total number of rows
+rows = len(my_list)
+print("The total rows = ", rows)
+
+#counting the total number of columns
+cols = len(my_list[0])
+print("The total columns = ",cols)
